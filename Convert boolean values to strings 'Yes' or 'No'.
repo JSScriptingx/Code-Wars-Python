@@ -1,0 +1,7 @@
+def bool_to_word(bool):
+    # return a yes string for true & A no string for false
+    if bool == True:
+        return "Yes"
+    else:
+        return "No"
+    
