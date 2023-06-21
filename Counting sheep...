@@ -1,0 +1,13 @@
+def count_sheeps(sheep):
+  # TODO May the force be with you
+    
+    return sum(bool(x) for x in sheep)
+
+    sheep = [True, True, True, False,
+             True, True, True, True,
+             True, False, True, False,
+             True, False, False, True,
+             True, True, True, True,
+             False, False, True, True]
+    print(count(sheep))
+    pass
