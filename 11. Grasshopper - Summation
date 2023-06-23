@@ -1,0 +1,10 @@
+def summation(num):
+
+    result = 0 # result = 0
+    count = 1 # count = 1
+
+    while count <= num: #While the count is less than/equal to num
+        result += count # result is more or equal to count
+        count += 1 # count more or equal to 1 
+
+    return result # returns results
