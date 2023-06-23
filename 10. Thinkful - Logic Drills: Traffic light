@@ -1,0 +1,12 @@
+def update_light(current):
+    # Your code here.
+    
+    # provide information for the function Representing the current state/color of the light.
+    # Then return a string representing the cuurent state/Color of the light should change too
+    if current == 'green':
+        return 'yellow'
+    elif current == 'yellow':
+        return 'red'
+    elif current == 'red':
+        return 'green'
+    # For example, when the input is green, output should be yellow.
