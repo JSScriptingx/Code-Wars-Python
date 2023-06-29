@@ -1,0 +1,15 @@
+def printer_error(s):
+    # your code
+    colors = ['a', 'b', 'c', 'd', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'] #Letters that work for colors
+    errors = ['n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'] #Letters that don't work for colors
+    
+    error = 0
+    for letter in s:
+        if letter in errors:
+            error += 1
+    return f"{error}/{len(s)}"
+
+s="aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmm"
+print(printer_error(s) == "0/56")
+    
+    
