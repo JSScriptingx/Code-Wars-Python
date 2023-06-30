@@ -1,0 +1,5 @@
+def find_short(s):
+    # your code here
+    words = s.split(' ')
+    words.sort(key=len)
+    return len(words[0])
